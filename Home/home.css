@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+/*--------------------------------------------page top section---------------------------------------------------*/
+
+.page-top {
+    background-color: black;
+    padding: 5px;
+}
+
+.page-top .page-top-heading {
+    color: white;
+}
+
+
+/*--------------------------------------------navbar section---------------------------------------------------*/
+
+.main-nav {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    padding: 0 !important;
+}
+
+.navbar-brand {
+    padding-left: 20px;
+    font-size: 25px !important;
+    font-weight: bold;
+    font-style: italic;
+    color: aqua !important;
+}
+
+#navbarNav {
+    padding-right: 20px;
+}
+
+.fa-bars {
+    color: #fff;
+    font-size: 30px !important;
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+.navbar-nav li {
+    padding: 0 5px;
+}
+
+.navbar-nav li a {
+    font-weight: 600;
+    font-size: 20px;
+    float: right;
+    color: #fff !important;
+    text-align: left;
+}
+
+.navbar-toggler-icon {
+    outline: none !important;
+}
+
+.nav-link:hover {
+    color: aqua !important;
+}
+
+
+/*--------------------------------------------main section------------------------------------------------------*/
+
+.main-row {
+    margin-top: 20px;
+}
+
+.main-section {
+    background-color: black;
+    position: relative;
+    min-height: 600px;
+}
+
+.custom-shape-divider-bottom-1622633600 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1622633600 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 83px;
+}
+
+.custom-shape-divider-bottom-1622633600 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.main-flex {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.main-section-text .main-section-heading {
+    color: white;
+}
+
+.main-section-text {
+    text-align: center;
+}
+
+.main-section-img {
+    height: 100px;
+    width: 60%
+}
+
+.blockquote-tag-1::before {
+    content: "\201c";
+    color: #009578;
+    font-size: 80px;
+    display: block;
+    margin-bottom: -60px;
+    margin-top: -30px;
+}
+
+.blockquote-tag-2::before {
+    content: "\201c";
+    color: #009578;
+    font-size: 80px;
+    display: block;
+    margin-bottom: -60px;
+    margin-top: -30px;
+}
+
+.blockquote .blockquote-paragraph-1 {
+    color: white;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+.blockquote .blockquote-paragraph-1-owner {
+    color: white;
+    font-style: italic;
+    text-align: right;
+    font-weight: bold;
+}
+
+.blockquote .blockquote-paragraph-1-owner::before {
+    content: "\2014\0020";
+}
+
+.blockquote .blockquote-paragraph-2 {
+    color: white;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+.blockquote .blockquote-paragraph-2-owner {
+    color: white;
+    font-style: italic;
+    text-align: right;
+    font-weight: bold;
+}
+
+.blockquote .blockquote-paragraph-2-owner::before {
+    content: "\2014\0020";
+}
+
+
+/*-------------------------------------------------About us section--------------------------------------------------*/
+
+.aboutus-section {
+    margin-top: 50px;
+}
+
+.aboutus-section-col1 ul,
+.aboutus-section-col2 ul {
+    list-style-type: none;
+    list-style-position: outside;
+}
+
+.aboutus-section-col1 ul li p::before {
+    content: "\2764";
+    color: #009933;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.aboutus-section-col2 ul li p::before {
+    content: "\2764";
+    color: #ff00ff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.aboutus-section .aboutus-section-main::after {
+    content: "";
+    height: 5px;
+    width: 20%;
+    margin: 0 auto;
+    background-color: orangered;
+    margin-top: 10px;
+    display: block;
+}
+
+
+/*-------------------------------------------------Courses section--------------------------------------------------*/
+
+.course-section .course-section-main::after {
+    content: "";
+    height: 5px;
+    width: 20%;
+    margin: 0 auto;
+    background-color: orangered;
+    margin-top: 10px;
+    display: block;
+}
+
+.course-section .course-section-main {
+    text-transform: uppercase;
+}
+
+.course-section ul {
+    list-style-type: none;
+}
+
+.course-section ul li {
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.course-section .card-title {
+    color: #ff0000;
+    text-transform: uppercase;
+}
+
+.course-section .card {
+    border: 2px solid grey;
+}
+
+
+/*-------------------------------------------------recruter section--------------------------------------------------*/
+
+.recruter-section .recruter-section-img {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recruter-section .recruter-section-main::after {
+    content: "";
+    height: 5px;
+    width: 25%;
+    margin: 0 auto;
+    background-color: orangered;
+    margin-top: 10px;
+    display: block;
+}
+
+
+/*-------------------------------------------------Testimonial section--------------------------------------------------*/
+
+.Testimonial-section .Testimonial-section-img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.Testimonial-section .Testimonial-section-name {
+    display: inline-block;
+    margin: 0;
+}
+
+.Testimonial-section .Testimonial-section-main::after {
+    content: "";
+    height: 5px;
+    width: 25%;
+    margin: 0 auto;
+    background-color: orangered;
+    margin-top: 10px;
+    display: block;
+}
+
+
+/*------------------------------------------------contactus section--------------------------------------------------*/
+
+.contactus-section .contactus-section-main::after {
+    content: "";
+    height: 5px;
+    width: 25%;
+    margin: 0 auto;
+    background-color: orangered;
+    margin-top: 10px;
+    display: block;
+}
+
+
+/*-------------------------------------------------footer section--------------------------------------------------*/
+
+.footer-section {
+    background-color: black;
+    color: white;
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: yellow;
+}
+
+.footer-section .footer-btn:hover {
+    background-color: red;
+    color: black;
+}
+
+.footer-copyright {
+    background-color: white;
+    color: black;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.copyright-text {
+    margin-top: 10px;
+}

@@ -1,0 +1,97 @@
+body {
+    background-image: url(../Assets/download.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(128, 128, 128, 0.6);
+}
+
+.Main {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+
+.guest-main {
+    background-color: black;
+    opacity: 0.8;
+    border: 3px solid white;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.alert-edit {
+    margin-bottom: 0;
+}
+
+.guest-form {
+    width: 70%;
+    margin-top: 10px;
+}
+
+input[type=text],
+input[type=password],
+input[type=submit] {
+    margin-top: 10px;
+    padding: 3px;
+}
+
+input[type=text],
+input[type=password] {
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid green;
+    border-radius: 10px;
+}
+
+.form-check-label {
+    color: yellow;
+}
+
+.forgot-link h6 {
+    text-align: center;
+}
+
+.guest-button {
+    background-color: lightseagreen;
+    color: white;
+}
+
+.guest-button:hover {
+    background-color: green;
+}
+
+.guest-login-link h5 {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.or-text h5 {
+    color: white;
+    text-align: center;
+}
+
+.normal-link {
+    color: violet;
+    text-align: center;
+}
